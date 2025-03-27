@@ -71,6 +71,8 @@ li {
     padding: 16px 12px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
+    center-align;
+    text-align: center;
 }
 
 .navbar a:hover {
@@ -148,4 +150,40 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 14px;
+}
+
+footer a {
+    color: #d4af37;
+    /* Champagne Gold */
+    text-decoration: none;
+    margin: 0 12px;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #d4af37;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 28pt;
+    }
+
+    h2 {
+        font-size: 20pt;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .flexbox-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flexbox-item {
+        max-width: 100%;
+    }
 }
