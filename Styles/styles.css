@@ -1,18 +1,16 @@
 css
-/* Lady of the Hour - CSS styling */
+/* Lady of the Hour - CSS stylesheet */
 <head>
     <link href="/Users/anngyliseth/Desktop/Web Com/LAB 1/AnngyHernandez.github.io/Styles/styles.css" rel="stylesheet">
 </head>
-/* General Reset & Body Styling of video & Music */
+/* General Reset & Body styling */
 body{
     center-align: center;
-    Background-colour: #faf8f2;
+    Background-colour: #faf8f2; /* soft ivory */
     font-family: 'Lucida Sans', sans-serif;
     font-size: 16px;
     line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    color: #2e2e2e;
+    color: #2e2e2e; /* dark gray */
     text-align: center;
 }
 /* Typography & Headings*/
@@ -23,5 +21,79 @@ color: gray;
 text-align: center;
 }
 h2{
-    
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 25pt;
+    color: gray;
+    margin-bottom: 15px;
+    text-align: center;
+}
+p, li { 
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    margin: 10px 0;
+    color: #2e2e2e; /* dark gray */
+    text-align: center;
+}
+.testimonial {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: italic;
+    font-size: 20px;
+    text-weight: bold;
+    color: #4b1248; /* Deep Plum */
+    text-align: center;
+}
+/* Navigation Bar */
+.navbar{
+    background-color: #121212; /* Elegant Black */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 16px;
+    gap; 20px;
+}
+.navbar a{
+    color: white
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 16px 12px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.navbar a:hover{
+    background-color: #d4af37; /* Champagne Gold */
+    color: white;
+}
+/* Search input */
+.Split{
+    width: 300px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+/* Media & Hero Section*/
+video, audio {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+/* Flexbox section for Grids*/
+.flexbox-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 30px 10px;
+}
+.flexbox-item{
+    flex: 1 1 300px; /* Flex-grow, Flex-shrink, Flex-basis */
+    max-width: 300px;
+    background-color: #f0f0f0; /* Light Gray */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
