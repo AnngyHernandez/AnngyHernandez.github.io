@@ -57,8 +57,8 @@ li {
     display: flex;
     justify-content: center;
     flex-wrap: space-evenly;
-    align-items: center;
-    padding: 25px
+    align-items:  left;
+    padding: 30px
     
 }
 
