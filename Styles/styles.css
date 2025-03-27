@@ -1,10 +1,8 @@
-<css>
-/* CSS Document */
+css
+/* Lady of the Hour - CSS styling */
 <head>
     <link href="Styles/styles.css" rel="stylesheet">
 </head>
-.title{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: grey; font-size: 40pt;
-}
 /* General Reset & Body Styling of video & Music */
 body1{
     center-align: center;
@@ -18,3 +16,9 @@ body1{
     text-align: center;
 }
 /* Typography & Headings*/
+h1{
+    font-size: 2.5em;
+    margin: 0;
+    padding: 20px 0;
+    color: #2e2e2e;
+}
