@@ -4,7 +4,7 @@ css
     <link href="/Users/anngyliseth/Desktop/Web Com/LAB 1/AnngyHernandez.github.io/Styles/styles.css" rel="stylesheet">
 </head>
 /* General Reset & Body Styling of video & Music */
-body1{
+body{
     center-align: center;
     Background-colour: #faf8f2;
     font-family: 'Lucida Sans', sans-serif;
@@ -17,8 +17,11 @@ body1{
 }
 /* Typography & Headings*/
 h1{
-    font-size: 2.5em;
-    margin: 0;
-    padding: 20px 0;
-    color: #2e2e2e;
+font-family: 'playfair', sans-serif;
+font-size: 40pt;
+color: gray;
+text-align: center;
+}
+h2{
+    
 }
