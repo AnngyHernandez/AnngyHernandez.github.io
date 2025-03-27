@@ -1,0 +1,17 @@
+<html>
+<head>
+    <link href="/Users/anngyliseth/Desktop/Web Com/LAB 1/AnngyHernandez.github.io/Styles/styles.css" rel="stylesheet">
+<title>Lady of the Hour</title>
+</head>
+/* General Reset & Body Styling */
+body1{
+    Background-colour: #faf8f2;
+    font-family: 'Lucida Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #2e2e2e;
+    text-align: center;
+}
+/* Typography & Headings*/
