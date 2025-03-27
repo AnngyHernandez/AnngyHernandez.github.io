@@ -1,10 +1,13 @@
-<html>
+<css>
+/* CSS Document */
 <head>
-    <link href="/Users/anngyliseth/Desktop/Web Com/LAB 1/AnngyHernandez.github.io/Styles/styles.css" rel="stylesheet">
-<title>Lady of the Hour</title>
+    <link href="Styles/styles.css" rel="stylesheet">
 </head>
-/* General Reset & Body Styling */
+.title{ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: grey; font-size: 40pt;
+}
+/* General Reset & Body Styling of video & Music */
 body1{
+    center-align: center;
     Background-colour: #faf8f2;
     font-family: 'Lucida Sans', sans-serif;
     font-size: 16px;
