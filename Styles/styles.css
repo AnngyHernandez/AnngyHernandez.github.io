@@ -70,9 +70,9 @@ li {
     padding: 12px 12px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-    center-align;
     text-align: left;
-    text-spacing: 1px
+    word-spacing: 5px;
+    text-spacing: 5px;
     margin: 0 12px;
 }
 
