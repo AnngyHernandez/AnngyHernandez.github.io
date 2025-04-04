@@ -16,8 +16,10 @@ body {
 
 /* Typography & Headings*/
 h1 {
-    font-family: 'Cambria', Cochin, Georgia, Times, sans-serif;
-    font-size: 40pt;
+    font-family: 'Garmomond', 'Garamond Light', 'Garamond Bold', sans-serif;
+    font-weight: lighter;
+    font-style: oblique;
+    font-size: 45pt;
     color: gray;
     text-align: center;
 }
@@ -32,22 +34,24 @@ h2 {
 
 p,
 li {
-    font-family: 'Lucida Sans', sans-serif;
-    font-size: 16px;
-    margin: 10px 0;
+    font-family: 'Playfair Displays', sans-serif;
+    font-size: 20px;
     color: #2e2e2e;
     /* dark gray */
-    text-align: center;
+    justify-content: center;
+    center-align: center;
+    width: 500px;
 }
 
 .testimonial {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'copperplate', 'copperplate gothic light', 'copperplate gothic bold', sans-serif;
     font-size: italic;
-    font-size: 20px;
+    font-size: 30px;
     text-weight: bold;
     color: #4b1248;
     /* Deep Plum */
     text-align: center;
+    justify-content: center;
 }
 
 /* Navigation Bar */
