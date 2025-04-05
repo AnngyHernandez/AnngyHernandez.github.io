@@ -5,6 +5,12 @@
   align-content: center;
   background-color: white;
 }
+  .topnav-center {
+    float: left;
+    display: block;
+    background-color: white;
+    display: flex;
+  }
 .topnav-left {
   float: left;
   display: block;
