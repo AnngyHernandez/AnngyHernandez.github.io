@@ -7,28 +7,20 @@
   align-content: center;
   padding: 20px;
 }
-.topnav {
+.topnav-left {
   float: left;
   display: block;
-  background-color: lightgray;
-  space-eveningly;
+  background-color: white;
   display: flex;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  text-align:left;
+  padding: 15px 16px;
 }
-
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
 }
-
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: white;
@@ -37,7 +29,7 @@
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color:whitesmoke;
+  background-color:black;
   color: white;
 }
 
