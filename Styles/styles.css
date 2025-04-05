@@ -2,12 +2,11 @@ css
 /* Lady of the Hour - CSS stylesheet */
 
 /* General Reset & Body styling */
-ul {
+.ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
   li {
     display: inline;
   }
