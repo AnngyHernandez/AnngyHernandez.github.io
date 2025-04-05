@@ -2,19 +2,19 @@ css
 /* Lady of the Hour - CSS stylesheet */
 
 /* General Reset & Body styling */
-. div flex-container {
+.container {
     position: center
     display: flex;
     justify-content: space-between;
+    flex-direction: row;
     height: 15px;
   align-items: flex-start;
-    flex-direction: row; wrap
     padding: 20px;
   }
   .container {
     align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
   }
-  .item {
+  .flex .flexbox-item{
     flex-grow: 4; /* default 0 */
   }
 
@@ -25,7 +25,8 @@ css
     background-color: #f0f0f0;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-body {
+
+    body {
     center-align: center;
     Background-colour: #faf8f2;
     /* soft ivory */
