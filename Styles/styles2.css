@@ -62,10 +62,10 @@ body {
 .hero {
   position: relative;
   background: url('assets/maria-orlova-13naxFTumNA-unsplash.jpg') no-repeat center center/cover;
-  image height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100px;
 }
 .hero-overlay {
   background-color: rgba(0, 0, 0, 0.4);
