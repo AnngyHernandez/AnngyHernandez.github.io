@@ -2,12 +2,21 @@
 
 /* Add a black background color to the top navigation */
 .header-top {
-  background-color: white;
+  background-color: bright white;
   overflow: hidden;
+  align-content: center;
+  padding: 20px;
 }
 .topnav {
-  background-color: white;
-  align-items: center;
+  float: left;
+  display: block;
+  background-color: lightgray;
+  space-eveningly;
+  display: flex;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 /* Style the links inside the navigation bar */
