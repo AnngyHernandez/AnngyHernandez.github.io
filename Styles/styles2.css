@@ -61,8 +61,8 @@ body {
 /* Hero Section: Background Image with Search Bar Overlay */
 .hero {
   position: relative;
-  background: url('hero-background.jpg') no-repeat center center/cover;
-  height: 400px;
+  background: url('assets/maria-orlova-13naxFTumNA-unsplash.jpg') no-repeat center center/cover;
+  height: 600px;
   display: flex;
   align-items: center;
   justify-content: center;
