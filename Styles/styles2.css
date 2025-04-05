@@ -62,7 +62,7 @@ body {
 .hero {
   position: relative;
   background: url('assets/maria-orlova-13naxFTumNA-unsplash.jpg') no-repeat center center/cover;
-  image height: 200px;
+  image height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
