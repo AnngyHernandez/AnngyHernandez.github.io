@@ -2,15 +2,14 @@ css
 /* Lady of the Hour - CSS stylesheet */
 
 /* General Reset & Body styling */
-.flex-container {
-    display: flex; row
-    justify-content: center; space-between;
+. div flex-container {
+    position: center
+    display: flex;
+    justify-content: space-between;
     height: 200px;
   align-items: flex-start;
     flex-direction: row;
     padding: 20px;
-    background-color: #f2f2f2;
-  
   }
 body {
     center-align: center;
