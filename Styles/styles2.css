@@ -29,7 +29,7 @@
 }
 .topnav-right{
   float: right;
-  word-spacing: 10px
+  letter-spacing: 10px
   display: block;
   background-color: white;
   display: flex;
