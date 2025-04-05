@@ -11,17 +11,22 @@ TOP NAVIGATION BAR
     display: block;
     background-color: white;
     display: flex;
+    padding: auto;
+    width; 10px;
   }
 .topnav-left {
   float: left;
   display: block;
   background-color: white;
   display: flex;
+  padding: auto;
+  width: 10px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
+  width: 1px;
 }
 /* Change the color of links on hover */
 .topnav a:hover {
@@ -36,66 +41,23 @@ TOP NAVIGATION BAR
 }
 .topnav-right{
   float: right;
-  letter-spacing: 10px
   display: block;
   background-color: white;
   display: flex;
-}
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  color: #333;
-}
-
-/* Header: Navigation Bar with Logo */
-.header-top {
-  background: #eaeaea;
-  padding: 10px 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-.logo h1 {
-  font-size: 2.5em;
-  margin-bottom: 10px;
-}
-.primary-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 15px;
-  justify-content: center;
-}
-.primary-nav a {
-  text-decoration: none;
-  color: #333;
-  font-size: 0.9em;
-}
-.grid-container {
-  display: grid;
-  background-color: dodgerblue;
-  padding: 10px;
-    display: grid;
-    column-gap: 50px;
-  }
-.grid-container > div {
-  background-color: #f1f1f1;
-  color: #000;
-  padding: 10px;
-  font-size: 30px;
-  text-align: center;
-}
+  padding: auto
+  width="10px";
 /* Hero Section: Background Image with Search Bar Overlay */
 .hero {
   position: relative;
-  background: url('') no-repeat center center/cover;
+  background: url('hero-background.jpg') no-repeat center center/cover;
+  height: 400px;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
 }
-.hero-underlay {
-  background image: url 'assets/maria-orlova-13naxFTumNA-unsplash.jpg';
-    width: 100%;
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
