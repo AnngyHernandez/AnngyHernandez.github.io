@@ -3,9 +3,14 @@ css
 
 /* General Reset & Body styling */
 .ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+    align-items: center;
+    background-color: #121212;
+    /* Elegant Black */
+    display: flex;
+    justify-content: center;
+    flex-wrap: space-evenly;
+    align-items:  left;
+    padding: 30px
   }
   li {
     display: inline;
