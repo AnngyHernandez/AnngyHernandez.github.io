@@ -18,13 +18,13 @@
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #04AA6D;
+  background-color:whitesmoke;
   color: white;
 }
 
@@ -61,14 +61,14 @@ body {
 /* Hero Section: Background Image with Search Bar Overlay */
 .hero {
   position: relative;
-  background: url('assets/maria-orlova-13naxFTumNA-unsplash.jpg') no-repeat center center/cover;
+  background: url('') no-repeat center center/cover;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100px;
 }
 .hero-overlay {
-  background-color: rgba(0, 0, 0, 0.4);
+  background image: url('assets/maria-orlova-13naxFTumNA-unsplash.jpg');
   width: 100%;
   height: 100%;
   display: flex;
