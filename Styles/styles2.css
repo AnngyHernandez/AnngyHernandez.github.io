@@ -2,19 +2,14 @@
 
 /* Add a black background color to the top navigation */
 .header-top {
-  background-color: bright white;
-  overflow: hidden;
   align-content: center;
-  padding: 20px;
+  padding: 10px;
 }
 .topnav-left {
   float: left;
   display: block;
   background-color: white;
   display: flex;
-  color: #f2f2f2;
-  text-align:left;
-  padding: 15px 16px;
 }
 /* Style the links inside the navigation bar */
 .topnav a {
@@ -32,7 +27,12 @@
   background-color:black;
   color: white;
 }
-
+.topnav-right{
+  float: right;
+  display: block;
+  background-color: white;
+  display: flex;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
