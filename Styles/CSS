@@ -1,0 +1,280 @@
+//* Reset some basic elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+.top-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background: #f8f8f8;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;  /* Ensure icons/links line up horizontally */
+  gap: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: #e0e0e0;
+}
+
+.search-product {
+  margin-top: 20px;
+}
+
+.search-product input {
+  padding: 10px;
+  width: 200px;
+}
+
+.search-product button {
+  padding: 10px;
+}
+
+/* Testimonials Section */
+.testimonials {
+  padding: 40px 20px;
+  background: #f1f1f1;
+  text-align: center;
+}
+
+.testimonial-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.testimonial {
+  width: 30%;
+  background: #fff;
+  padding: 20px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+.testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* Shop Categories Navigation */
+.shop-categories {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.shop-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.shop-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Content Section */
+.content-section {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.content-section .text-block {
+  width: 30%;
+}
+
+/* Product Information Section */
+.product-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+
+.product-info .info-block {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+.product-info .cta {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Button Styles */
+.btn {
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+.btn.secondary {
+  background: #555;
+}
+
+/* Bridal Gifts Section */
+.bridal-gifts {
+  text-align: center;
+  margin: 40px 0;
+}
+
+/* Designer Journal Section */
+.designer-journal {
+  margin: 40px 20px;
+}
+
+/* Featured Product Section */
+.featured-product {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.featured-product .product {
+  display: inline-block;
+  border: 1px solid #ddd;
+  padding: 20px;
+}
+
+/* Shop by Designer Section */
+.shop-by-designer {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.designer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Trends and Popular Picks Section */
+.trends-popular {
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.trends-popular .trend,
+.trends-popular .popular {
+  width: 45%;
+  text-align: center;
+}
+
+/* Additional Services Section */
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 40px 0;
+}
+
+.services .service {
+  width: 45%;
+  margin-bottom: 20px;
+}
+
+/* Product Grid Section */
+.product-grid {
+  margin: 40px 0;
+  text-align: center;
+}
+
+.product-grid .grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.product-grid .grid-item {
+  width: calc(33% - 20px);
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Reviews Section */
+.reviews {
+  margin: 40px 0;
+  text-align: center;
+}
+
+/* Mission Section */
+.mission {
+  margin: 40px 20px;
+}
+
+/* Contact Section */
+.contact {
+  margin: 40px 20px;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.contact form button {
+  padding: 10px;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+}

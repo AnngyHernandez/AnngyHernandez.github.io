@@ -7,24 +7,24 @@ css
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    height: 15px;
+    height: 5px;
   align-items: flex-start;
     padding: 20px;
   }
   .container {
     align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
   }
-  .flex .flexbox-item{
-    flex-grow: 4; /* default 0 */
-  }
-
   .flexcontainer item {
     flex: 1;
     padding: 10px;
     margin: 5px;
-    background-color: #f0f0f0;
+    background-color: #4b1248;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+    .flexcontainer item {
+        flex: 2
+                     
 
     body {
     center-align: center;
