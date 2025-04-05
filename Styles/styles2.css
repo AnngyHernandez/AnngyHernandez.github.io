@@ -5,8 +5,9 @@
   align-content: center;
   background-color: white;
 }
+TOP NAVIGATION BAR
   .topnav-center {
-    float: left;
+    float: center;
     display: block;
     background-color: white;
     display: flex;
