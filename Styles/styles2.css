@@ -18,7 +18,7 @@
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: white;
+  background-color: gray;
   color: black;
 }
 
@@ -29,6 +29,7 @@
 }
 .topnav-right{
   float: right;
+  word-spacing: 10px
   display: block;
   background-color: white;
   display: flex;
