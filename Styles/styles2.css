@@ -72,10 +72,12 @@ body {
 }
 .grid-container {
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  gap: 10px;
   background-color: dodgerblue;
   padding: 10px;
+    display: grid;
+    column-gap: 50px;
+  }
+
 }
 .grid-container > div {
   background-color: #f1f1f1;
