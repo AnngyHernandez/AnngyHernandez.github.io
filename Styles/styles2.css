@@ -1,4 +1,4 @@
-//* Reset some basic elements */
+/* Reset */
 * {
   margin: 0;
   padding: 0;
@@ -11,270 +11,201 @@ body {
   color: #333;
 }
 
-/* Header */
-.top-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+/* Header: Navigation Bar with Logo */
+.header-top {
+  background: #eaeaea;
   padding: 10px 20px;
-  background: #f8f8f8;
-}
-
-.navbar {
   display: flex;
-  flex-direction: row;  /* Ensure icons/links line up horizontally */
+  flex-direction: column;
+  align-items: center;
+}
+.logo h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+}
+.primary-nav {
+  display: flex;
+  flex-wrap: wrap;
   gap: 15px;
+  justify-content: center;
+}
+.primary-nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 0.9em;
 }
 
-.navbar a {
+/* Hero Section: Background Image with Search Bar Overlay */
+.hero {
+  position: relative;
+  background: url('hero-background.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero-overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.search-area {
+  display: flex;
+  gap: 10px;
+}
+.search-area input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+}
+.search-area button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Secondary Navigation */
+.secondary-nav {
+  background: #ddd;
+  padding: 10px 0;
+  text-align: center;
+}
+.secondary-nav a {
+  margin: 0 15px;
   text-decoration: none;
   color: #333;
   font-weight: bold;
 }
 
-/* Hero Section */
-.hero {
-  text-align: center;
+/* Plan Your Shopping Section */
+.plan-shopping {
   padding: 40px 20px;
-  background: #e0e0e0;
-}
-
-.search-product {
-  margin-top: 20px;
-}
-
-.search-product input {
-  padding: 10px;
-  width: 200px;
-}
-
-.search-product button {
-  padding: 10px;
-}
-
-/* Testimonials Section */
-.testimonials {
-  padding: 40px 20px;
-  background: #f1f1f1;
+  background: #f9f9f9;
   text-align: center;
 }
-
-.testimonial-container {
+.plan-shopping h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+.shopping-detail p {
+  margin-bottom: 15px;
+}
+.sub-info {
   display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.sub-info div {
+  flex: 1;
+  max-width: 300px;
+}
+.sub-info h4 {
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
 }
 
-.testimonial {
-  width: 30%;
+/* Rentals Information Section */
+.rentals-info {
+  padding: 40px 20px;
+  text-align: center;
   background: #fff;
-  padding: 20px;
-  margin: 10px;
-  border: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+.rentals-info h2 {
+  margin-bottom: 15px;
+  font-size: 1.8em;
+}
+.rentals-info p {
+  font-size: 1em;
 }
 
+/* Customer Testimonials Section */
+.testimonials-bottom {
+  padding: 40px 20px;
+  background: #f2f2f2;
+  text-align: center;
+}
+.testimonials-bottom h2 {
+  margin-bottom: 20px;
+  font-size: 1.8em;
+}
+.testimonials-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.testimonial {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 15px;
+  width: 280px;
+  text-align: center;
+}
+.testimonial img {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 10px;
+}
 .testimonial blockquote {
   font-style: italic;
   margin-bottom: 10px;
 }
-
-/* Shop Categories Navigation */
-.shop-categories {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.shop-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-.shop-nav a {
-  text-decoration: none;
-  color: #333;
+.testimonial .name {
   font-weight: bold;
 }
-
-/* Content Section */
-.content-section {
-  display: flex;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-.content-section .text-block {
-  width: 30%;
-}
-
-/* Product Information Section */
-.product-info {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 20px 0;
-}
-
-.product-info .info-block {
-  width: 30%;
-  margin-bottom: 20px;
-}
-
-.product-info .cta {
-  width: 100%;
-  text-align: center;
-  margin-top: 20px;
-}
-
-/* Button Styles */
-.btn {
-  padding: 10px 20px;
-  background: #333;
-  color: #fff;
-  text-decoration: none;
-}
-
-.btn.secondary {
-  background: #555;
+.testimonial .desc {
+  font-size: 0.9em;
+  color: #777;
 }
 
 /* Bridal Gifts Section */
 .bridal-gifts {
+  padding: 40px 20px;
   text-align: center;
-  margin: 40px 0;
+  background: #f9f9f9;
+}
+.bridal-gifts .btn.bridal-btn {
+  padding: 15px 30px;
+  font-size: 1.1em;
 }
 
-/* Designer Journal Section */
-.designer-journal {
-  margin: 40px 20px;
-}
-
-/* Featured Product Section */
-.featured-product {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.featured-product .product {
-  display: inline-block;
-  border: 1px solid #ddd;
-  padding: 20px;
-}
-
-/* Shop by Designer Section */
-.shop-by-designer {
-  text-align: center;
-  margin: 40px 0;
-}
-
-.designer-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-}
-
-/* Trends and Popular Picks Section */
-.trends-popular {
-  display: flex;
-  justify-content: space-around;
-  margin: 40px 0;
-}
-
-.trends-popular .trend,
-.trends-popular .popular {
-  width: 45%;
-  text-align: center;
-}
-
-/* Additional Services Section */
-.services {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  margin: 40px 0;
-}
-
-.services .service {
-  width: 45%;
-  margin-bottom: 20px;
-}
-
-/* Product Grid Section */
-.product-grid {
-  margin: 40px 0;
-  text-align: center;
-}
-
-.product-grid .grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.product-grid .grid-item {
-  width: calc(33% - 20px);
-  border: 1px solid #ddd;
-  padding: 10px;
-  text-align: center;
-}
-
-/* Reviews Section */
-.reviews {
-  margin: 40px 0;
-  text-align: center;
-}
-
-/* Mission Section */
-.mission {
-  margin: 40px 20px;
-}
-
-/* Contact Section */
-.contact {
-  margin: 40px 20px;
-}
-
-.contact form {
-  max-width: 500px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.contact form input,
-.contact form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-}
-
-.contact form button {
-  padding: 10px;
-  background: #333;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-}
-
-/* Footer */
+/* Footer: Bottom Navigation Bar */
 footer {
   background: #333;
   color: #fff;
-  text-align: center;
   padding: 20px;
+  text-align: center;
 }
-
-.footer-links {
+.footer-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
   margin-bottom: 10px;
 }
-
-.footer-links a {
-  color: #fff;
+.footer-nav a {
   text-decoration: none;
+  color: #fff;
+  font-size: 0.9em;
+}
+.footer-tagline {
+  font-style: italic;
 }
