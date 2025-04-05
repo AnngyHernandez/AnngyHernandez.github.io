@@ -77,8 +77,6 @@ body {
     display: grid;
     column-gap: 50px;
   }
-
-}
 .grid-container > div {
   background-color: #f1f1f1;
   color: #000;
