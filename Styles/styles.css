@@ -2,19 +2,15 @@ css
 /* Lady of the Hour - CSS stylesheet */
 
 /* General Reset & Body styling */
-.flex-container {
-    position: center
-    display: flex;
-    justify-content: space-between;
-    flex-direction:row;
-    height: 5px;
-  align-items: flex-start;
-    padding: 20px;
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
   }
-  .container {
-    align-items: stretch | flex-start | flex-end | center | baseline | first baseline | last baseline | start | end | self-start | self-end + ... safe | unsafe;
   
-
+  li {
+    display: inline;
+  }
 
     body {
     center-align: center;
