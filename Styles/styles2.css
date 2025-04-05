@@ -1,6 +1,10 @@
 /* Reset */
 
 /* Add a black background color to the top navigation */
+.header-top {
+  background-color: white;
+  overflow: hidden;
+}
 .topnav {
   background-color: #333;
   align-items: center;
