@@ -3,7 +3,7 @@
 /* Add a black background color to the top navigation */
 .header-top {
   align-content: center;
-  padding: 10px;
+  background-color: white;
 }
 .topnav-left {
   float: left;
