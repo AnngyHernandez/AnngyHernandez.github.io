@@ -4,12 +4,13 @@ css
 /* General Reset & Body styling */
 .ul{
     align-items: center;
-    background-color: #121212;
+    background-color: #f8f1f1;
     /* Elegant Black */
     display: flex;
     justify-content: center;
     flex-wrap: space-evenly;
-    align-items:  left;
+    align-items:  center;
+
     padding: 30px
   }
   li {
