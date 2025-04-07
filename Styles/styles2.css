@@ -3,23 +3,20 @@
   align-items: center;
   background-color: #f2f2f2;
   padding: 20px;
- 
+
 }
 
 /* Th Top Navigation */
 .header {
   align-content: center;
   background-color: white;
-  word-spacing: 20px;
 }
 
- .topnav-center {
-  float: center;
+.topnav-centered {
+  float: top;
+  position: center;
   display: block;
   background-color: white;
-  display: flex;
-  padding: auto;
-  width: 10px;
 }
 
 .topnav-left {
@@ -29,13 +26,17 @@
   display: flex;
   padding: 20px
 }
+
 .topnav-right {
   float: right;
+  align-content: center;
+  spacing: 20px;
   display: block;
   background-color: white;
   display: flex;
   padding-right: 20px
 }
+
 /* Style the top navigation bar */
 .topnav a {
   float: left;
@@ -54,16 +55,7 @@
   background-color: black;
   color: white;
 }
-.body {
-  background-color: #f2f2f2;
-  word-wrap: break-word;
-  font-family: 'Courier New', Courier, monospace;
-  margin: 0;
-  padding: 0;
-  color: #333;
-  line-height: 1.6;
-  font-size: 16px;
-  text-align: center;
+
   /* Hero Section: Background Image with Search Bar Overlay */
   .hero {
     position: relative;
@@ -73,55 +65,69 @@
     justify-content: center;
   }
 
-  .hero-overlay {
-    background-color: rgba(0, 0, 0, 0.4);
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+ /* Hero Section: Background Image with Search Bar Overlay */
+.hero {
+  position: center;
+  background-image: url('https://unsplash.com/photos/woman-wearing-white-sweetheart-neckline-wedding-dress-inside-vehicle-13naxFTumNA');
 
-  .search-area {
-    display: flex;
-    gap: 10px;
-  }
-
-  .search-area input {
-    padding: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 4px;
-  }
-
-  .search-area button {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    background-color: #333;
-    color: #fff;
-    cursor: pointer;
-  }
-
+}
+.hero-overlay {
+  background-color: rgba(249, 163, 163, 0.342);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+}
+.search-area {
+  display: flex;
+  gap: 0px;
+}
+.search-area input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-radius: 4px;
+}
+.search-area button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
   /* Secondary Navigation */
   .secondary-nav {
-    background: #ddd;
-    padding: 10px 0;
+    background: white
+    padding: 20px;
+    display: flex;
+    justify-content: center;
     text-align: center;
+    gap: 20px;
   }
-
   .secondary-nav a {
-    margin: 0 15px;
+    margin: 0 0px;
     text-decoration: none;
     color: #333;
-    font-weight: bold;
+    font-weight: normal
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px 20px;
+    border-radius: 50px;
   }
+  .secondary-nav a:hover {
+    background: #f2f2f2;
+    color: #333;
+  }
+  
 
   /* Plan Your Shopping Section */
   .plan-shopping {
     padding: 40px 20px;
     background: #f9f9f9;
-    text-align: center;
+    text-align: left;
   }
 
   .plan-shopping h2 {
@@ -132,24 +138,20 @@
   .shopping-detail p {
     margin-bottom: 15px;
   }
-
   .sub-info {
     display: flex;
     justify-content: center;
     gap: 20px;
     margin-bottom: 20px;
   }
-
   .sub-info div {
     flex: 1;
     max-width: 300px;
   }
-
   .sub-info h4 {
     margin-bottom: 5px;
     font-size: 1.1em;
   }
-
   .btn {
     display: inline-block;
     padding: 10px 20px;
@@ -162,25 +164,22 @@
   /* Rentals Information Section */
   .rentals-info {
     padding: 40px 20px;
-    text-align: center;
+    text-align: left;
     background: #fff;
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
   }
-
   .rentals-info h2 {
     margin-bottom: 15px;
     font-size: 1.8em;
   }
-
   .rentals-info p {
     font-size: 1em;
   }
-
   /* Customer Testimonials Section */
   .testimonials-bottom {
     padding: 40px 20px;
-    background: #f2f2f2;
+    background:  #f9f9f9;;
     text-align: center;
   }
 
@@ -188,14 +187,12 @@
     margin-bottom: 20px;
     font-size: 1.8em;
   }
-
   .testimonials-container {
     display: flex;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
   }
-
   .testimonial {
     background: #fff;
     border: 1px solid #ddd;
@@ -203,13 +200,11 @@
     width: 280px;
     text-align: center;
   }
-
   .testimonial img {
     width: 50px;
     height: 50px;
     margin-bottom: 10px;
   }
-
   .testimonial blockquote {
     font-style: italic;
     margin-bottom: 10px;
@@ -225,23 +220,24 @@
   }
 
   /* Bridal Gifts Section */
-  .flex-container bridal-gifts {
+  .flex-container {
     display: flex;
     flex direction: row;
-    align-items: stretch;
-    background-color: #f9f9f9;
-    Align-items: center;
+    gap: 20px;
+    padding: 20px;
+    background: #f9f9f9;
+    text-align: :center;
     justify-content: center;
+    margin: 20px 0;
   }
 
   .flex-container>div {
-    background color: white
-    color: black
-    margin: 20px;
-    text-align: center;
+    background color: white color: black margin: 20px;
+    text-align: :left;
     line-height: 75px;
     font-size: 15px;
   }
+
   .button {
     background-color: white;
     border: none;
@@ -254,43 +250,54 @@
     margin: 10px 10px;
     cursor: pointer;
   }
+
   /* Footer: Bottom Navigation Bar */
   /* Solid border */
   hr.solid {
     border-top: 5px solid #bbb;
   }
+
   .footer-tagline {
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace
-    color: grey;
+    font-family: 'Courier New', Courier, monospace color: grey;
     font-size: 15px;
     text-emphasis-color:
       silver;
     font-weight: bold;
     text-align: left;
   }
+
   .footer {
-   align-content: right;
+    align-content: right;
     bottom: 20px;
 
   }
+
   .footer-table {
-    border-collapse; border-collapse: 
-    font-family;'Courier New', Courier, monospace;
-    align-content: right;
-    background-color: #ef0505;
-    border-collapse: collapse;
-  }
-  .td,th{
-    border: 30px blac;
+    display: flex;
+    align-items: right;
     padding: 20px;
-    padding: 8px;
-  text-align: center;
-  border-bottom: 1px solid grey;
-}
+    width: 50%;
+    margin: 1px 0;
+    background-color: #f9f9f9;
+    border: 0px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
 
-  .footer-table tr {
-    background-color: white;
+  .td,th {
+    border: 30px black;
+    padding: 1px;
+    padding: 1x;
+    text-align: center;
+    border-bottom: 1px solid grey;
   }
-  .footer tr:hover {background-color: goldenrod;}
+
+.footer-table tr {
+  background-color: white;
+}
+
+.footer-table tr:hover {
+  background-color: goldenrod;
+}
