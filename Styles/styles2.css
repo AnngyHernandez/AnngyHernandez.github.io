@@ -1,23 +1,20 @@
-/* Reset */
+/* The Audio*/
+.audio {
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 20px;
+ 
+}
 
-/* Add a black background color to the top navigation */
+/* Th Top Navigation */
 .header {
   align-content: center;
   background-color: white;
+  word-spacing: 20px;
 }
 
-TOP NAVIGATION BAR .topnav-center {
+ .topnav-center {
   float: center;
-  display: block;
-  background-color: white;
-  display: flex;
-  padding: auto;
-  width;
-  10px;
-}
-
-.topnav-left {
-  float: left;
   display: block;
   background-color: white;
   display: flex;
@@ -25,7 +22,21 @@ TOP NAVIGATION BAR .topnav-center {
   width: 10px;
 }
 
-/* Style the links inside the navigation bar */
+.topnav-left {
+  float: left;
+  display: block;
+  background-color: white;
+  display: flex;
+  padding: 20px
+}
+.topnav-right {
+  float: right;
+  display: block;
+  background-color: white;
+  display: flex;
+  padding-right: 20px
+}
+/* Style the top navigation bar */
 .topnav a {
   float: left;
   color: #f2f2f2;
@@ -43,18 +54,19 @@ TOP NAVIGATION BAR .topnav-center {
   background-color: black;
   color: white;
 }
-
-.topnav-right {
-  float: right;
-  display: block;
-  background-color: white;
-  display: flex;
-  padding: auto width="10px";
-
+.body {
+  background-color: #f2f2f2;
+  word-wrap: break-word;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  font-size: 16px;
+  text-align: center;
   /* Hero Section: Background Image with Search Bar Overlay */
   .hero {
     position: relative;
-    background: url('hero-background.jpg') no-repeat center center/cover;
     height: 400px;
     display: flex;
     align-items: center;
@@ -213,11 +225,13 @@ TOP NAVIGATION BAR .topnav-center {
   }
 
   /* Bridal Gifts Section */
-  ".flex-container {
+  .flex-container bridal-gifts {
     display: flex;
+    flex direction: row;
     align-items: stretch;
     background-color: #f9f9f9;
-    margin: 0px
+    Align-items: center;
+    justify-content: center;
   }
 
   .flex-container>div {
@@ -243,11 +257,11 @@ TOP NAVIGATION BAR .topnav-center {
   /* Footer: Bottom Navigation Bar */
   /* Solid border */
   hr.solid {
-    border-top: 10px solid #bbb;
+    border-top: 5px solid #bbb;
   }
   .footer-tagline {
     font-style: italic;
-    font-family: 'Lady of the Hour', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Courier New', Courier, monospace
     color: grey;
     font-size: 15px;
     text-emphasis-color:
@@ -256,25 +270,27 @@ TOP NAVIGATION BAR .topnav-center {
     text-align: left;
   }
   .footer {
-    background color: silver;
-    color: black;
-    font-size: 14px;
-    padding: 20px;
-    position:right
+   align-content: right;
     bottom: 20px;
+
   }
   .footer-table {
-    font-family: 'Courier New', Courier, monospace;
-   align-content: right:
-    margin: 50px 30px;
+    border-collapse; border-collapse: 
+    font-family;'Courier New', Courier, monospace;
+    align-content: right;
     background-color: #ef0505;
+    border-collapse: collapse;
   }
-  .footer-table td {
-    border: 30px solid light rgb(224, 8, 8);
-    text-align: center;
+  .td,th{
+    border: 30px blac;
+    padding: 20px;
+    padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
   }
 
   .footer-table tr {
     background-color: white;
-    text-align: center;
   }
+  .footer tr:hover {background-color: goldenrod;}
