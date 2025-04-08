@@ -290,14 +290,18 @@
     border: 30px black;
     padding: 1px;
     padding: 1x;
-    text-align: center;
+    text-align: right;
     border-bottom: 1px solid grey;
   }
 
 .footer-table tr {
   background-color: white;
+  transition: background-color 0.3s ease;
+  padding: 20px;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .footer-table tr:hover {
-  background-color: goldenrod;
+  background-color: light rgba(252, 216, 222, 0.725);
 }
