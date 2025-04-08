@@ -2,8 +2,7 @@
 .audio {
   align-items: center;
   background-color: #f2f2f2;
-  padding: 20px;
-
+  padding-bottom: 40px;
 }
 
 /* Th Top Navigation */
@@ -17,6 +16,7 @@
   position: center;
   display: block;
   background-color: white;
+
 }
 
 .topnav-left {
@@ -66,19 +66,16 @@
   }
 
  /* Hero Section: Background Image with Search Bar Overlay */
-.hero {
-  position: center;
-  background-image: url('https://unsplash.com/photos/woman-wearing-white-sweetheart-neckline-wedding-dress-inside-vehicle-13naxFTumNA');
-
-}
 .hero-overlay {
-  background-color: rgba(249, 163, 163, 0.342);
+  background-color: rgba(249, 163, 163, 0.239);
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  padding: 50px;
+  justify-content: center;;
+  padding: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
 .search-area {
   display: flex;
@@ -98,36 +95,60 @@
   color: #fff;
   cursor: pointer;
 }
+.search-area button:hover {
+  background-color: #f6e60688;
+}
   /* Secondary Navigation */
   .secondary-nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+     text-align: center;
     background: white
-    padding: 20px;
-    display: flex;
+    padding-bottom: 80px;
+    padding-top: 60px;
     justify-content: center;
-    text-align: center;
-    gap: 20px;
+    gap: 80px;
   }
   .secondary-nav a {
-    margin: 0 0px;
-    text-decoration: none;
     color: #333;
     font-weight: normal
-    font-size: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    padding: 20px 20px;
-    border-radius: 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  }
+
+  .secondary-nav p {
+    font-size: 15px;
+    font-weight: med-italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
+    margin-bottom: 40px;
   }
   .secondary-nav a:hover {
     background: #f2f2f2;
     color: #333;
+    font-weight: bold;
+    font-size: 20px;
   }
-  
+   .video {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 900px;
+   }
 
   /* Plan Your Shopping Section */
+  .background-image { background-image: url('https://unsplash.com/photos/woman-wearing-white-sweetheart-neckline-wedding-dress-inside-vehicle-13naxFTumNA');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
   .plan-shopping {
-    padding: 40px 20px;
-    background: #f9f9f9;
     text-align: left;
+    text-wrap-style: wrap;
+    padding: 40px 20px;
+    margin: 20px 0;
+    border-radius: 10px;
   }
 
   .plan-shopping h2 {
@@ -137,6 +158,8 @@
 
   .shopping-detail p {
     margin-bottom: 15px;
+   text-wrap-style: wrap;
+    text-align: left;
   }
   .sub-info {
     display: flex;
@@ -150,7 +173,8 @@
   }
   .sub-info h4 {
     margin-bottom: 5px;
-    font-size: 1.1em;
+    font-size: 16px;
+    text-align: left;
   }
   .btn {
     display: inline-block;
@@ -160,32 +184,52 @@
     text-decoration: none;
     border-radius: 4px;
   }
+  .btn:hover {
+    background: #e3d50b7b;
+  }
 
   /* Rentals Information Section */
-  .rentals-info {
-    padding: 40px 20px;
-    text-align: left;
-    background: #fff;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+  .rentals-info table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    center-align: left;
+    
+  }
+.rentals-info th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  .rentals-info td {
+    padding: 10px;
+    text-align: center;
+  }
+  .rentals-info p:hover {
+    background: #aca8a8;
   }
   .rentals-info h2 {
-    margin-bottom: 15px;
-    font-size: 1.8em;
+    margin-bottom: 20px;
+    font-size: 2em;
+    text-align: left;
   }
-  .rentals-info p {
-    font-size: 1em;
+  .rentals-info a:hover {
+    background: #f2f2f2;
+    color: #333;
+    font-weight: medium;
+    font-size: 20px;
   }
   /* Customer Testimonials Section */
   .testimonials-bottom {
-    padding: 40px 20px;
-    background:  #f9f9f9;;
+    padding: 50px 50px;
+    background:  #fffcfc;;
     text-align: center;
   }
 
   .testimonials-bottom h2 {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-size: 1.8em;
+    text-align: left;
   }
   .testimonials-container {
     display: flex;
@@ -195,7 +239,7 @@
   }
   .testimonial {
     background: #fff;
-    border: 1px solid #ddd;
+    border: 1px solid #9d9b9b52;
     padding: 15px;
     width: 280px;
     text-align: center;
@@ -220,50 +264,62 @@
   }
 
   /* Bridal Gifts Section */
+  
   .flex-container {
     display: flex;
     flex direction: row;
-    gap: 20px;
     padding: 20px;
-    background: #f9f9f9;
+    background-color: rgba(249, 163, 163, 0.239);;
     text-align: :center;
     justify-content: center;
     margin: 20px 0;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
   }
 
   .flex-container>div {
-    background color: white color: black margin: 20px;
     text-align: :left;
     line-height: 75px;
     font-size: 15px;
   }
 
-  .button {
-    background-color: white;
+  .flex-container hover {
     border: none;
-    color: white;
     padding: 33px 32px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
     font-size: 4px;
     margin: 10px 10px;
     cursor: pointer;
   }
+  .flex-container button {
+    padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  }
+  .flex-container button:hover {
+    background-color: #e3d40b4c;
+  }
 
   /* Footer: Bottom Navigation Bar */
   /* Solid border */
   hr.solid {
-    border-top: 5px solid #bbb;
+    border-top: 2px solid #f6e606;
   }
 
   .footer-tagline {
     font-style: italic;
-    font-family: 'Courier New', Courier, monospace color: grey;
+    font-famiily : Verdana, Geneva, Tahoma, sans-serif;
+    color: #333;
     font-size: 15px;
-    text-emphasis-color:
-      silver;
-    font-weight: bold;
+    text-emphasis-color: #333;
+    margin-bottom: 20px;
+    margin-top: 20px
+    Margin-left: 20px;
+    font-weight: simi-medium;
     text-align: left;
   }
 
@@ -274,24 +330,20 @@
   }
 
   .footer-table {
-    display: flex;
-    align-items: right;
-    padding: 20px;
-    width: 50%;
+    table-size: 30%;
+    content-align: right;
+    font-size: 10px;
     margin: 1px 0;
-    background-color: #f9f9f9;
-    border: 0px solid #ddd;
     border-radius: 10px;
     overflow: hidden;
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
   }
-
-  .td,th {
-    border: 30px black;
-    padding: 1px;
-    padding: 1x;
-    text-align: right;
-    border-bottom: 1px solid grey;
+  
+  .footer-table td {
+    padding: 10px;
+    text-align: left
+    font-size: 14px;
+    color: #333;
   }
 
 .footer-table tr {
@@ -302,6 +354,6 @@
   overflow: hidden;
 }
 
-.footer-table tr:hover {
-  background-color: light rgba(252, 216, 222, 0.725);
+.footer-table td:hover {
+  background-color:rgba(249, 163, 163, 0.239);
 }
